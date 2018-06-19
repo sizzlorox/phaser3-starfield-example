@@ -1,0 +1,22 @@
+{
+  "name": "streamgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && webpack-dev-server --port=8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.10.1",
+    "webpack": "^4.12.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "raw-loader": "^0.5.1",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
